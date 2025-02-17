@@ -172,11 +172,16 @@ This tool is for educational purposes only. Unauthorized use on third-party syst
 📢 Contributing
 
 Contributions are welcome!
+
 To contribute:
-	1.	Fork the repository
-	2.	Create a new branch (feature-xyz)
-	3.	Commit and push your changes
-	4.	Submit a Pull Request 🚀
+	
+ 1.	Fork the repository
+	
+ 2.	Create a new branch (feature-xyz)
+	
+ 3.	Commit and push your changes
+	
+ 4.	Submit a Pull Request 🚀
 
 📄 License
 
