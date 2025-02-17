@@ -71,6 +71,7 @@ Upon execution, you will see a main menu to choose different attacks:
 📄 9. Generate Report
 
 ====================================
+
 [+] Choose an option:
 
 🔍 Features & Commands
