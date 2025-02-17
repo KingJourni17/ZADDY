@@ -21,6 +21,7 @@ ZADDY v14.1: AI-Powered Cybersecurity Framework
 Run the following command to clone the repository:
 
 git clone https://github.com/KingJourni17/ZADDY.git
+
 cd ZADDY
 
 2️⃣ Install Dependencies
@@ -49,14 +50,23 @@ Upon execution, you will see a main menu to choose different attacks:
 🔥 ZADDY: Choose Your Attack  
 ====================================
 🟩 1. AI-Powered Dark Web Threat Intelligence
+
 🟨 2. OSINT & Recon
+
 🟦 3. Exploitation & Payload Deployment
+
 🟪 4. C2 Control (Empire, Metasploit, Cobalt Strike)
+
 📷 5. WiFi Camera Access & Vulnerability Testing
+
 📊 6. Real-Time Attack Dashboard
+
 🎙️ 7. Voice-Controlled Execution
+
 🚀 8. Deploy & Update from GitHub
+
 📄 9. Generate Report
+
 ====================================
 [+] Choose an option:
 
@@ -181,8 +191,11 @@ MIT License – Free to use, modify, and distribute with attribution.
 🚀 Ready to Use ZADDY? Clone Now!
 
 git clone https://github.com/KingJourni17/ZADDY.git
+
 cd ZADDY
+
 chmod +x zaddy.sh
+
 ./zaddy.sh
 
 💥 Happy Pentesting! 🔥
