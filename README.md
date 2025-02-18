@@ -1,210 +1,196 @@
-ZADDY v14.1: AI-Powered Cybersecurity Framework
+🔥 ZADDY v16.0: AI-Powered Threat Intelligence & Pentesting Framework
 
-🔥 ZADDY v14.1 is an advanced AI-powered cybersecurity tool designed for offensive security testing, real-time monitoring, and automation. This framework integrates AI-driven threat intelligence, dark web monitoring, exploitation tools, WiFi camera vulnerability testing, C2 (Command & Control) frameworks, DDoS testing, and voice-controlled execution.
+Created by: KingJourni17 | Version: 16.0.0
 
-🚀 Key Features:
-	•	AI-Powered Dark Web Monitoring 🔍
-	•	OSINT & Recon (WHOIS, Subdomains, Metadata, Wayback Machine, etc.) 🕵️
-	•	Exploitation & Payload Deployment 🎯
-	•	C2 (Empire, Metasploit, Cobalt Strike) Control 🖥️
-	•	WiFi Camera Hacking & Vulnerability Testing 📷
-	•	Real-Time Attack Dashboard 📊
-	•	Voice-Controlled Execution 🎙️
-	•	Automated GitHub Deployment & CI/CD Integration 🔄
-	•	DDoS Testing & Stress Testing 💣
-	•	Secure Remote Execution via Telegram Bot & Slack 🤖
+🚀 ZADDY v16.0 is an AI-powered penetration testing and threat intelligence framework that integrates machine learning, real-time attack prediction, automated reconnaissance, and offensive security techniques into a fully automated pentesting suite.
+
+📌 Features & Functionalities
+
+🔹 AI-Powered Capabilities
+
+✅ AI-Based Threat Prediction & Risk Analysis
+✅ Machine Learning Adaptive Exploitation
+✅ AI-Guided DDoS Attack Simulation
+✅ AI-Powered Dark Web Intelligence
+✅ AI-Powered Voice-Controlled Execution
+
+🔹 Offensive Security & Pentesting
+
+✔️ Automated OSINT & Reconnaissance
+✔️ AI-Powered Dark Web Monitoring
+✔️ Automated Exploitation & Payload Deployment
+✔️ Command & Control (C2) Management
+✔️ MITM Attacks & Network Sniffing
+✔️ DDoS Attacks (HTTP Flood, SYN Flood, UDP Amplification)
+✔️ WiFi Camera Vulnerability Testing
+✔️ Real-Time Attack Dashboard & Visualization
+✔️ Live Reporting & Automated Logging
 
 📌 Installation Guide
 
-1️⃣ Clone the Repository
-
-Run the following command to clone the repository:
+🔹 1️⃣ Clone the Repository
 
 git clone https://github.com/KingJourni17/ZADDY.git
-
 cd ZADDY
 
-2️⃣ Install Dependencies
+🔹 2️⃣ Install Required Dependencies
 
-Run the following command to install all required dependencies:
+Before using ZADDY, install the required system tools and Python packages:
 
-chmod +x install.sh
-./install.sh
+sudo apt update && sudo apt install -y tor proxychains nmap sqlmap gobuster sublist3r exiftool theHarvester whois nikto \
+owasp-zap curl wpscan dirsearch hydra waybackurls metasploit-framework hping3 slowloris python3-pip figlet ffmpeg \
+python3-flask python3-speechrecognition python3-pyaudio bettercap git
 
-This script will:
-	•	Update package repositories
-	•	Install required tools (Metasploit, Nmap, Gobuster, Wireshark, Hydra, TheHarvester, etc.)
-	•	Set up AI libraries for voice recognition & attack simulations
-	•	Install Python-based AI models for attack monitoring & execution
+pip3 install torch torchvision transformers scikit-learn pandas numpy tqdm flask flask-login flask-sqlalchemy flask-socketio \
+requests beautifulsoup4 slack-sdk telepot opencv-python speechrecognition pyaudio
 
-🚀 Usage
+📌 Usage
 
-To run ZADDY, execute:
+🔹 3️⃣ Run the AI-Powered Pentesting Framework
+
+To launch ZADDY, ensure the script is executable:
 
 chmod +x zaddy.sh
-./zaddy.sh
+sudo ./zaddy.sh
 
-Upon execution, you will see a main menu to choose different attacks:
+Upon execution, the main menu will appear where you can select different attacks.
 
-====================================
+=====================================
+🔥 ZADDY: AI-Powered Attack Dashboard  
+=====================================
+🕵️  1. AI-Powered Dark Web Threat Intelligence
+📊  2. Launch Real-Time Attack Dashboard
+📄  3. Generate Comprehensive Reports
+🔓  4. Credentials Harvesting
+🌍  5. OSINT & Recon (WHOIS, Subdomains, Metadata, Wayback)
+💀  6. Exploitation & Payload Deployment
+🐉  7. C2 Control (Empire, Metasploit, Cobalt Strike)
+📡  8. WiFi Camera Access & Vulnerability Testing
+🎭  9. Attack Visualization & Live Testing
+🛠  10. Remote Pentesting Automation
+💣  11. DDoS Attacks (HTTP Flood, SYN Flood, UDP Amplification)
+🕷️  12. Dark Web Market Monitoring
+📡  13. MITM Attack
+🎙️  14. Real-Time Alerts
+📡  15. Deploy & Update from GitHub
+[+] Choose an option: 
 
-🔥 ZADDY: Choose Your Attack  
+📌 Features & Attack Methods
 
-====================================
+🕵️ 1. AI-Powered Dark Web Threat Intelligence
 
-🟩 1. AI-Powered Dark Web Threat Intelligence
-
-🟨 2. OSINT & Recon
-
-🟦 3. Exploitation & Payload Deployment
-
-🟪 4. C2 Control (Empire, Metasploit, Cobalt Strike)
-
-📷 5. WiFi Camera Access & Vulnerability Testing
-
-📊 6. Real-Time Attack Dashboard
-
-🎙️ 7. Voice-Controlled Execution
-
-🚀 8. Deploy & Update from GitHub
-
-📄 9. Generate Report
-
-====================================
-
-[+] Choose an option:
-
-🔍 Features & Commands
-
-🔹 AI-Powered Dark Web Intelligence
-
-./zaddy.sh 1
+sudo ./zaddy.sh 1
 
 	•	Uses TOR proxies to scrape dark web marketplaces for leaked credentials, exploits, and threats.
 
-🔹 OSINT & Recon
+📊 2. Launch Real-Time Attack Dashboard
 
-./zaddy.sh 2
+sudo ./zaddy.sh 2
+
+	•	Live visualization of attack status & logs in a web dashboard.
+
+📄 3. Generate Comprehensive Reports
+
+sudo ./zaddy.sh 3
+
+	•	AI-generated security reports based on reconnaissance, attack execution, and analysis.
+
+🔓 4. Credentials Harvesting
+
+sudo ./zaddy.sh 4
+
+	•	Extracts sensitive credentials from stored databases.
+
+🌍 5. OSINT & Reconnaissance
+
+sudo ./zaddy.sh 5
 
 	•	Uses TheHarvester, WHOIS, and Shodan API to gather emails, subdomains, and metadata.
 
-🔹 Exploitation & Payload Deployment
+💀 6. Exploitation & Payload Deployment
 
-./zaddy.sh 3
+sudo ./zaddy.sh 6
 
 	•	Launches Metasploit attacks
 	•	Uses custom payload generators for remote access
 
-🔹 Command & Control (C2)
+🐉 7. C2 Control
 
-./zaddy.sh 4
+sudo ./zaddy.sh 7
 
 	•	Connects to Empire, Cobalt Strike, and Metasploit for remote execution
 
-🔹 WiFi Camera Hacking
+📡 8. WiFi Camera Hacking
 
-./zaddy.sh 5
+sudo ./zaddy.sh 8
 
-	•	Scans local networks for vulnerable RTSP cameras and exploits unauthenticated streams
+	•	Scans local networks for vulnerable RTSP cameras and exploits unauthenticated streams.
 
-🔹 Real-Time Attack Dashboard
+🎭 9. Live Attack Visualization
 
-./zaddy.sh 6
+sudo ./zaddy.sh 9
 
-	•	Web-based Flask dashboard to monitor attacks in real-time
+	•	Real-time graphical representation of active exploits, attacks, and logs.
 
-🔹 Voice-Controlled Execution
+🛠 10. Remote Pentesting Automation
 
-./zaddy.sh 7
+sudo ./zaddy.sh 10
 
-	•	AI-based voice assistant to run attacks with speech commands.
+	•	Automates pentesting scripts for continuous security evaluation.
 
-🔹 Auto-Deploy & Update from GitHub
+💣 11. DDoS Attack Simulation
 
-./zaddy.sh 8
+sudo ./zaddy.sh 11
 
-	•	Ensures ZADDY is always up-to-date via GitHub CI/CD pipelines
+	•	Supports HTTP Flood, SYN Flood, and UDP Amplification Attacks.
 
-🔹 Generate a Full Security Report
+🕷️ 12. Dark Web Market Monitoring
 
-./zaddy.sh 9
+sudo ./zaddy.sh 12
 
-	•	Exports all scan logs into a structured pentesting report.
+	•	Uses AI & NLP to scan dark web marketplaces for potential threats.
 
-🛠️ GitHub Deployment & CI/CD
+📡 13. MITM Attack
 
-ZADDY is fully automated with GitHub Actions for continuous deployment.
+sudo ./zaddy.sh 13
 
-🔹 Deploy to GitHub
+	•	Intercept and manipulate network traffic via ARP spoofing & sniffing.
 
-If you want to deploy new updates, run:
+🎙️ 14. Real-Time Alerts
 
-git add .
-git commit -m "Updated ZADDY"
-git push origin main
+sudo ./zaddy.sh 14
 
-The GitHub Actions workflow automatically installs dependencies and executes security tests.
+	•	Sends notifications to Slack, Telegram, and Email for attack execution updates.
 
-📡 Remote Execution via Telegram Bot
-	1.	Setup Telegram Bot
+📡 15. Deploy & Update from GitHub
 
-./setup_telegram.sh
+sudo ./zaddy.sh 15
 
+	•	Auto-updates ZADDY from GitHub for the latest features & exploits.
 
-	2.	Run Remote Commands via Telegram
-
-/status → Check if ZADDY is online
-/execute "nmap -p 80 target.com" → Run command remotely
-/shutdown → Stop execution
-
-💣 DDoS Testing & Stress Testing
-
-Use ZADDY for safe and ethical stress testing of your own infrastructure.
-
-./zaddy.sh 10
-
-Includes:
-	•	SYN Floods
-	•	UDP Amplification Attacks
-	•	Slowloris Attacks
-
-🔐 Disclaimer
+📌 Disclaimer
 
 ⚠️ LEGAL WARNING ⚠️
-This tool is for educational purposes only. Unauthorized use on third-party systems is illegal and punishable by law. The developer is not responsible for any misuse.
+This tool is for educational and ethical security purposes only. Unauthorized use against systems without explicit permission is illegal and punishable by law. The developer is not responsible for any misuse.
 
-📢 Contributing
+📌 Contributing
 
 Contributions are welcome!
-
 To contribute:
-	
- 1.	Fork the repository
-	
- 2.	Create a new branch (feature-xyz)
-	
- 3.	Commit and push your changes
-	
- 4.	Submit a Pull Request 🚀
+	1.	Fork the repository
+	2.	Create a new branch (feature-xyz)
+	3.	Commit and push your changes
+	4.	Submit a Pull Request 🚀
 
 📄 License
 
 MIT License – Free to use, modify, and distribute with attribution.
 
-🌍 Connect with Us
-
-🔗 GitHub: KingJourni17/ZADDY
-📧 Email: fonkinjinwjinklins@gmail.com
-🛠 Issues: If you find bugs, report them here
-
 🚀 Ready to Use ZADDY? Clone Now!
 
 git clone https://github.com/KingJourni17/ZADDY.git
-
 cd ZADDY
-
 chmod +x zaddy.sh
-
-./zaddy.sh
+sudo ./zaddy.sh
 
 💥 Happy Pentesting! 🔥
