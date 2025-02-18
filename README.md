@@ -8,32 +8,52 @@ Created by: KingJourni17 | Version: 16.0.0
 
 🔹 AI-Powered Capabilities
 
+
 ✅ AI-Based Threat Prediction & Risk Analysis
+
 ✅ Machine Learning Adaptive Exploitation
+
 ✅ AI-Guided DDoS Attack Simulation
+
 ✅ AI-Powered Dark Web Intelligence
+
 ✅ AI-Powered Voice-Controlled Execution
+
 
 🔹 Offensive Security & Pentesting
 
+
 ✔️ Automated OSINT & Reconnaissance
+
 ✔️ AI-Powered Dark Web Monitoring
+
 ✔️ Automated Exploitation & Payload Deployment
+
 ✔️ Command & Control (C2) Management
+
 ✔️ MITM Attacks & Network Sniffing
+
 ✔️ DDoS Attacks (HTTP Flood, SYN Flood, UDP Amplification)
+
 ✔️ WiFi Camera Vulnerability Testing
+
 ✔️ Real-Time Attack Dashboard & Visualization
+
 ✔️ Live Reporting & Automated Logging
 
 📌 Installation Guide
 
+
 🔹 1️⃣ Clone the Repository
 
+
 git clone https://github.com/KingJourni17/ZADDY.git
+
 cd ZADDY
 
+
 🔹 2️⃣ Install Required Dependencies
+
 
 Before using ZADDY, install the required system tools and Python packages:
 
@@ -41,43 +61,72 @@ sudo apt update && sudo apt install -y tor proxychains nmap sqlmap gobuster subl
 owasp-zap curl wpscan dirsearch hydra waybackurls metasploit-framework hping3 slowloris python3-pip figlet ffmpeg \
 python3-flask python3-speechrecognition python3-pyaudio bettercap git
 
+
 pip3 install torch torchvision transformers scikit-learn pandas numpy tqdm flask flask-login flask-sqlalchemy flask-socketio \
 requests beautifulsoup4 slack-sdk telepot opencv-python speechrecognition pyaudio
 
+
 📌 Usage
+
 
 🔹 3️⃣ Run the AI-Powered Pentesting Framework
 
+
 To launch ZADDY, ensure the script is executable:
 
+
 chmod +x zaddy.sh
+
 sudo ./zaddy.sh
+
 
 Upon execution, the main menu will appear where you can select different attacks.
 
+
 =====================================
+
 🔥 ZADDY: AI-Powered Attack Dashboard  
+
 =====================================
+
 🕵️  1. AI-Powered Dark Web Threat Intelligence
+
 📊  2. Launch Real-Time Attack Dashboard
+
 📄  3. Generate Comprehensive Reports
+
 🔓  4. Credentials Harvesting
+
 🌍  5. OSINT & Recon (WHOIS, Subdomains, Metadata, Wayback)
+
 💀  6. Exploitation & Payload Deployment
+
 🐉  7. C2 Control (Empire, Metasploit, Cobalt Strike)
+
 📡  8. WiFi Camera Access & Vulnerability Testing
+
 🎭  9. Attack Visualization & Live Testing
+
 🛠  10. Remote Pentesting Automation
+
 💣  11. DDoS Attacks (HTTP Flood, SYN Flood, UDP Amplification)
+
 🕷️  12. Dark Web Market Monitoring
+
 📡  13. MITM Attack
+
 🎙️  14. Real-Time Alerts
+
 📡  15. Deploy & Update from GitHub
+
 [+] Choose an option: 
+
 
 📌 Features & Attack Methods
 
+
 🕵️ 1. AI-Powered Dark Web Threat Intelligence
+
 
 sudo ./zaddy.sh 1
 
@@ -168,29 +217,45 @@ sudo ./zaddy.sh 15
 
 	•	Auto-updates ZADDY from GitHub for the latest features & exploits.
 
+
 📌 Disclaimer
+
 
 ⚠️ LEGAL WARNING ⚠️
 This tool is for educational and ethical security purposes only. Unauthorized use against systems without explicit permission is illegal and punishable by law. The developer is not responsible for any misuse.
 
+
 📌 Contributing
 
+
 Contributions are welcome!
+
 To contribute:
-	1.	Fork the repository
-	2.	Create a new branch (feature-xyz)
-	3.	Commit and push your changes
-	4.	Submit a Pull Request 🚀
+
+ 1.	Fork the repository
+
+ 2.	Create a new branch (feature-xyz)
+
+ 3.	Commit and push your changes
+
+ 4.	Submit a Pull Request 🚀
+
 
 📄 License
 
+
 MIT License – Free to use, modify, and distribute with attribution.
+
 
 🚀 Ready to Use ZADDY? Clone Now!
 
+
 git clone https://github.com/KingJourni17/ZADDY.git
+
 cd ZADDY
+
 chmod +x zaddy.sh
+
 sudo ./zaddy.sh
 
 💥 Happy Pentesting! 🔥
