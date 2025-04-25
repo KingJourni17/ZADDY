@@ -1,3 +1,5 @@
+![image](https://github.com/user-attachments/assets/3f763dfc-512f-46f5-872f-520a2df68e8d)
+
 🔥 ZADDY v16.0: AI-Powered Threat Intelligence & Pentesting Framework
 
 Created by: KingJourni17 | Version: 16.0.0
